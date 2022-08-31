@@ -1,0 +1,21 @@
+.card {
+    margin: 2rem 2rem 2rem 0;
+    padding: 1.5rem;
+    width: 250px;
+    box-shadow: 0 0 28px 4px rgba(63, 60, 60, 0.1);
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgba(71, 179, 179, 0.959);
+}
+.card-image img {
+    border-radius: 70%;
+}
